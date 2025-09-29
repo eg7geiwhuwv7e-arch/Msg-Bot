@@ -8,10 +8,10 @@ const TelegramBot = require('node-telegram-bot-api');
 const token = process.env.TELEGRAM_BOT_API_TOKEN;
 
 // Web App ka URL (Vercel/Netlify se milega)
-const webAppUrl = 'https://finisherop.github.io/Mining-/'; // <-- Yahan Web App ka URL daalein
+const webAppUrl = 'https://eg7geiwhuwv7e-arch.github.io/Tap-rean/'; // <-- Yahan Web App ka URL daalein
 
 // Community ka URL
-const communityUrl = 'https://t.me/finisher_tech_ai'; // <-- Yahan Community ka URL daalein
+const communityUrl = 'https://t.me/TapEarn82_bot'; // <-- Yahan Community ka URL daalein
 
 // Bot ko start karein
 const bot = new TelegramBot(token, { polling: true });
